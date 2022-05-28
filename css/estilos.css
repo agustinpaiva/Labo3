@@ -9,15 +9,15 @@ body{
 	color: grey;
 }
 
+
+
 .pj1{
 	width: 50%;
-	border-style: dotted;
 	margin-left: 0%;
 }
 
 .pj{
-	width: 80%;
-	border-style: dotted;
+	width: 100%;
 	margin-left: 0%;
 }
 
@@ -25,6 +25,7 @@ body{
 
 a.desplegable:hover{
 	background-color: white;
+	
 
 }
 
@@ -59,14 +60,13 @@ section.asd{
 
 article{
 	background-color:transparent;
-	border-style: dotted;
 	display: inline-block;
 	
 
 }
 
 #mosca{
-	width: 22%;
+	width: 21.25%;
 	border-width: 00%;
 	border-color: darkred;
 	float: left;
@@ -94,8 +94,10 @@ h1{
 
 header{
 	background-color: yellow;
-	background-image: url("../imagenes/fondohead.jpg");
-	background-size: cover;
+	background-image: url("../imagenes/fondohead2.jpg");
+	
+	background-size: initial;
+
 	
 	
 }
@@ -115,10 +117,15 @@ nav#menu{
 	margin-left: -3%;
 	padding-top: 1%;
 	font-size: 130%;
+	display: flex;
+	
 
 	
 }
 
+h3{
+	color: transparent;
+}
 a{
 	color: white;
 }
@@ -147,7 +154,6 @@ p#main{
 	width: 95%;
 	margin-bottom: 10%;
 	margin-left: 0%;
-	border-style: dotted;
 	margin-top: 5%;
 	font-size:150%;
 	background-color: black;
@@ -181,23 +187,51 @@ h2{
 	margin-right: 15%;
 	padding-bottom: 1%;
 	padding-left: 2%;
-	color: white;
+	color: white;	
+}
+.margenheader{
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	color: white;	
+}
+
+.margen2{
+	margin-left: 30%;
+	margin-right: 15%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	margin-top: 3%;
+	color: white;	
+}
+.margengaleria{
+	margin-left: 22%;
+	margin-right: 15%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	margin-top: 3%;
+	color: white;	
+}
+
+ul{
+	display: none;
 	
 }
 
+
+
+
 footer.margen{
 	margin-left: 13%;
-	border-style: dotted;
-	
 	display: inline-block;
 	
 	font-size: 140%;
 }
 .textofoto{
 	
-	margin-left: 5%;
-	
-	border-style: dotted;
+	margin-left: 2%;
+	margin-right: 5%;
 	background-color: black;
 	width: 70%;
 	padding-bottom: 1%;

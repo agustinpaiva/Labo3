@@ -5,44 +5,58 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Breaking Bad - Fly</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	
+	<link href="css/lightbox.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 
-	<header class="margen" id="head"> 
-		<div id="fotoytitulo">
-			<a href="index.html"  ><img width=400px src="imagenes/mosca.webp" id="mosca"></a>
+		<header class="margenheader" id="head"> 
 			<h3 >'</h3>
-		</div>
-		<nav id="menu">
-			<a href="index.html">Inicio</a>
-			<a href="contacto.html">Contacto</a>      
-			<a href="Curiosidades.html">Curiosidades</a> 
-			<a href="Galeria.html">Galeria</a> 
-			<a href="Personajes.html" class="desplegable">Personajes</a> 
+			<nav id="menu">
+			<li><a href="index.html">Inicio</a> </li>
+			<li><a href="contacto.html">Contacto</a>    </li>   
+			<li><a href="Curiosidades.html">Curiosidades</a>  </li>
+			<li><a href="Galeria.html">Galeria</a>  </li> </li>
+			<li ><a href="Personajes.html" class="desplegable">Personajes</a> </li>
+				<ul>
+					<li><a href="jesee.html">jesse</a></li>
+					<li><a href="walter.html">walter</a></li>
+				</ul>
 		</nav>
 	</header>
 
-	<article class="margen">
+	<article class="margengaleria">
 		<h2>Galeria de fotos</h2>
 
 		<p id="main">
+			<div class="galeria">
 			
-			<a href="imagenes/11.webp"><img  src="imagenes/11.webp"></a>
-			<a href="imagenes/2.webp"><img src="imagenes/2.webp"></a>
-			<a href="imagenes/3.webp"><img  src="imagenes/3.webp"></a>
-			<a href="imagenes/4.webp"><img src="imagenes/4.webp"></a>
-			<a href="imagenes/5.webp"><img  src="imagenes/5.webp"></a>
-			<a href="imagenes/6.webp"><img  src="imagenes/6.webp"></a>
-			<a href="imagenes/7.webp"><img  src="imagenes/7.webp"></a>
-			<a href="imagenes/8.webp"><img  src="imagenes/8.webp"></a>
-			<a href="imagenes/12.webp"><img  src="imagenes/12.webp"></a>
-			<a href="imagenes/9.webp"><img  src="imagenes/9.webp"></a>
+			<a class="example-image-link" href="imagenes/moscalampara.jpg" data-lightbox="example-set" data-title="Mosca posada en una luz"><img class="example-image" src="imagenes/moscalamparamini.jpg" alt=""/></a>
+    	    <a class="example-image-link" href="imagenes/mosca en el anteojo.jpg" data-lightbox="example-set" data-title="Mosca posada en el cristal del anteojo"><img class="example-image" src="imagenes/mosca en el anteojomini.jpg" alt=""/></a>
+    	    <a class="example-image-link" href="imagenes/mosca.jpg" data-lightbox="example-set" data-title="La mosca"><img class="example-image" src="imagenes/moscamini.jpg" alt=""/></a>
+    	    
+    	    <a class="example-image-link" href="imagenes/vista de la mosca.jpg" data-lightbox="example-set" data-title="La mosca mirando a Walter"><img class="example-image" src="imagenes/vista de la moscamini.jpg" alt=""/></a>
+    	    <a class="example-image-link" href="imagenes/walter buscando la mosca.jpg" data-lightbox="example-set" data-title="Walter en busqueda de la mosca"><img class="example-image" src="imagenes/walter buscando la moscamini.jpg" alt=""/></a>
+    	    <a class="example-image-link" href="imagenes/walter con el matamosca.jpg" data-lightbox="example-set" data-title="Con el matamosca en la mano"><img class="example-image" src="imagenes/walter con el matamoscamini.jpg" alt=""/></a>
+    	    </div>
+    	    <div id="espacio"></div>
+    	     <div class="galeria">
+    	    
+    	    <a class="example-image-link" href="imagenes/walter con la linterna.jpg" data-lightbox="example-set" data-title="Buscando la mosca en la oscuridad"><img class="example-image" src="imagenes/walter con la linternamini.jpg" alt=""/></a>
+    	    <a class="example-image-link" href="imagenes/walter en el laboratorio.jpg" data-lightbox="example-set" data-title="Mosca dentro del laboratorio"><img class="example-image" src="imagenes/walter en el laboratoriomini.jpg" alt=""/></a>
+    	   <a class="example-image-link" href="imagenes/cansados.jpg" data-lightbox="example-set" data-title="Cansados de buscar"><img class="example-image" src="imagenes/cansadosmini.jpg" alt=""/></a>
+    	   
+    	   <a class="example-image-link" href="imagenes/walter y jessy charlando.jpg" data-lightbox="example-set" data-title="Cansados de buscar"><img class="example-image" src="imagenes/walter y jessy charlandomini.jpg" alt=""/></a>
+    	  
+    	    <a class="example-image-link" href="imagenes/busqueda en tanques.jpg" data-lightbox="example-set" data-title="Buscando en los tanques ,para evitar toda contaminacion"><img class="example-image" src="imagenes/busqueda en tanquesmini.jpg" alt=""/></a>
+    	    <a class="example-image-link" href="imagenes/walter y el matamosca2.jpg" data-lightbox="example-set" data-title="La atrapara?"><img class="example-image" src="imagenes/walter y el matamosca2mini.jpg" alt=""/></a>
+
+    	    </div>
 		</p>
 	
 		
 	</article>
+	<script src="js/lightbox-plus-jquery.js"></script>
 </body>	
 
 <footer class="margen" id="footer">
@@ -54,6 +68,5 @@
 		<div>By Nestor Agustin Paiva</div>
 	
 </footer>	
-
 
 </html>

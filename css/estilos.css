@@ -255,3 +255,17 @@ footer.margen{
 }
 
 
+.formularios{
+	display: block;
+
+}
+
+
+.inline{
+	display: flex;
+	justify-content: center;
+	
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+

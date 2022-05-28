@@ -257,13 +257,14 @@ footer.margen{
 
 .formularios{
 	display: block;
+	margin-top: 2%;
+	background-color: ;
 
 }
 
 
 .inline{
-	display: flex;
-	justify-content: center;
+	
 	
 	margin-bottom: 5%;
 	margin-top: 5%;
@@ -271,4 +272,13 @@ footer.margen{
 
 ul {
     list-style: none;
+}
+
+.fondonegro{
+	background-color: black;
+}
+
+.centrado{
+
+	margin-left: 35%;
 }

@@ -119,9 +119,23 @@ nav#menu{
 	font-size: 130%;
 	display: flex;
 	
-
-	
 }
+
+ul{
+	display: flex;
+
+}
+li{
+	margin-left: 10%;
+}
+
+
+
+.block{
+	display: block;
+	display: none;
+}
+
 
 h3{
 	color: transparent;
@@ -216,7 +230,7 @@ h2{
 }
 
 ul{
-	display: none;
+	list-style:
 }
 
 
@@ -270,9 +284,7 @@ footer.margen{
 	margin-top: 5%;
 }
 
-ul {
-    list-style: none;
-}
+
 
 .fondonegro{
 	background-color: black;

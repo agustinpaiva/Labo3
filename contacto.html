@@ -10,24 +10,26 @@
 </head>
 <body>
 	<header class="margenheader" id="head"> 
-			<h3 >'</h3>
-			<nav id="menu">
-				<ul>
-					<li><a href="index.html">Inicio</a> </li>
-					<li><a href="contacto.html">Contacto</a>    </li>   
-					<li><a href="curiosidades.html">Curiosidades</a>  </li>
-					<li><a href="galeria.html">Galeria</a></li>  
-					<li ><a href="personajes.html" class="desplegable">Personajes</a> </li>
-				</ul>
-				<ul class="block">
-					<li><a href="jesee.html">jesse</a></li>
-					<li><a href="walter.html">walter</a></li>
-				</ul>
-		</nav>
+				<img src="imagenes/fondohead2.jpg" class="pj3">
+				<nav id="menu">
+					<ul>
+						<li><a href="index.html">Inicio</a> </li>
+						<li><a href="contacto.html">Contacto</a>    </li>   
+						<li><a href="curiosidades.html">Curiosidades</a>  </li>
+						<li><a href="galeria.html">Galeria</a></li>  
+						<li class="aa"><a href="personajes.html">Personajes</a> 
+					
+							<ul>
+								<li><a href="jesee.html">jesse</a></li>
+								<li><a href="walter.html">walter</a></li>
+							</ul>
+						</li>
+					</ul>
+			</nav>
 	</header>
 
 	<article class="margen">
-		<h2 class="inline">Contactanos</h2>
+		<h2 class="inline" id="conta">Contactanos</h2>
 	</article>
 
 <div class="inline">
@@ -38,16 +40,41 @@
 		</div>
 		<div class="centrado" >
 			<form id="miformulario" method="POST" action="#" class="formularios">
-				<title>asdasdsad</title><input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre"class="formularios">
-				<title>asdasdsad</title><input type="email" name="miemail" id="miemail"placeholder="Email"class="formularios">
-				<input type="text" name="asunto" id="asunto"placeholder="Asunto"class="formularios">
-				<textarea rows="10"cols="60" name="texto"class="formularios" > </textarea>
-				<input type="submit" value="Enviar"class="formularios">
+				<h2>Formulario de contacto</h2><input type="text" name="nombre" id="sunombre" placeholder="Ingresa tu nombre"class="formularios">
+				<input type="email" name="miemail" id="suemail"placeholder="Email"class="formularios">
+				<input type="text" name="asunto" id="suasunto"placeholder="Asunto"class="formularios">
+				<textarea rows="10"cols="60" name="texto"class="formularios" id="sutexto" > </textarea>
+				<input type="submit" value="Enviar"class="formularios" id="botonEnviar">
 			</form>
+			<div id="caracteres"></div>
 		</div>
 </div>
 
+<script type="text/javascript">
 
+	
+
+	function valitacion(){
+		var nombre= document.getElementById("sunombre").value;
+		var mail=document.getElementById("suemail").value;
+		var asunto=document.getElementById("suasunto").value;
+		
+		if(nombre.length<1||mail.length<1||asunto.length<1 ){
+
+			alert("Complete todos los campos")
+		}else {
+			alert("Formulario enviado con exito")
+			sunombre.value="";
+			suemail.value="";
+			suasunto.value="";
+		}
+
+
+	}
+
+document.getElementById("botonEnviar").onclick=valitacion;
+	
+</script>
 </body>	
 
 <footer class="margen" id="footer">

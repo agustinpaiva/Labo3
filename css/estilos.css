@@ -8,7 +8,7 @@ body{
 	font-family: 'Alfa Slab One', cursive;
 	color: grey;
 }
-
+.icon { display: none; }
 
 .pj3{
 width:100%;
@@ -146,7 +146,7 @@ h1.hea{
 }
 
 
-nav#menu{
+nav.menu2{
 	background-color: black;
 	color: black;
 	font-family: cursive;
@@ -331,4 +331,31 @@ footer.margen{
 .centrado{
 
 	margin-left: 35%;
+}
+
+@media screen and (max-width:
+480px) {
+nav ul { display: none; }
+.icon { float: right; display: block;  }
+
+
+nav ul {
+
+display: none;
+
+}
+nav.responsive ul {
+display: block;
+
+}
+nav.responsive ul li {
+display: block;
+text-align: center;
+padding: 0.5rem;
+
+}
+nav.responsive ul li a {
+padding-right: 0;
+
+}
 }

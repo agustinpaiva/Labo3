@@ -5,13 +5,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Breaking Bad - Fly</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	
+	<link rel="stylesheet"
+href="https://cdnjs.cloudfl
+
+are.com/ajax/libs/font-
+awesome/4.7.0/css/font-
+awesome.min.css">
+
+
+
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
+	
+
+</a>
 	<header class="margenheader" id="head"> 
 				<img src="imagenes/fondohead2.jpg" class="pj3">
-				<nav id="menu">
+				<a href="javascript:void(0);"class="icon"onclick="myFunction()" >
+				<i class="fa fa-bars"></i>
+				<nav class="menu" id="mibarra">
 					<ul>
 						<li><a href="index.html">Inicio</a> </li>
 						<li><a href="contacto.html">Contacto</a>    </li>   
@@ -57,6 +70,16 @@
 				<div id="espacio"></div>
 		</section>
 	</article>
+<script type="text/javascript">
+	function myFunction() {
+	var x = document.getElementById("mibarra");
+	if (x.className === "barratop") {
+	x.className += " responsive";
+	} else {
+	x.className = "barratop";
+	}
+	}
+</script>
 </body>	
 <footer class="margen" id="footer">
 	
@@ -67,4 +90,6 @@
 		<div>By Nestor Agustin Paiva</div>
 	
 </footer>	
+
+
 </html>

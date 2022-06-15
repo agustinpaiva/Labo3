@@ -362,5 +362,96 @@ padding: 0.5rem;
 nav.responsive ul li a {
 padding-right: 0;
 
+
 }
+
+
+.pj3{
+	width: 130%;
+	margin-left: 0%;
+	padding-left: 0%;
+}
+
+.margenheader{
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 0%;
+}
+
+.margen{
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 0%;
+}
+
+h1{
+	font-size: 170%;
+}
+
+h2{
+	font-size: 120%;
+}
+p#main{
+	font-size: 100%;
+}
+
+p.textofoto{
+	font-size: 100%;
+}
+section.asd{
+	display: block;
+}
+#footer{
+	margin-left: 25%;
+	margin-right: 0%;
+	padding-left: 0%;
+
+	display: inline-block;
+	
+	font-size: 140%;
+}
+
+.margen2{
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 0%;
+}
+
+div.inline{
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 0%;
+}
+div.centrado{
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 0%;
+}
+div.caracteres{
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 0%;
+}
+
+.textofotoWal{
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 0%;
+	width: 100%;
+}
+.textofotoJes{
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 0%;
+	width: 100%;
+
+}
+
+footer div{
+	font-size: 60%;
+}
+footer a{
+	font-size: 80%;
+}
+
 }

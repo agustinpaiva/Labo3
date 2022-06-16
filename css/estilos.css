@@ -26,9 +26,9 @@ width:100%;
 .textofotoJes{
 	
 	background-color:black;
-	width:90%;
+	width:80%;
 	margin-bottom: 10%;
-	
+	margin-right: 10%;	
 
 }
 .textofotoWal{
@@ -36,12 +36,12 @@ width:100%;
 	margin-right	: 10%;
 	margin-left: 10%;
 	background-color:black;
-	width:50%;
+	width:100%;
 	padding: 0%;
 	
 }
 .pj4{
-	width: 90%;
+	width: 100%;
 	padding: 0%;
 }
 
@@ -146,7 +146,7 @@ h1.hea{
 }
 
 
-nav.menu2{
+nav.barratop{
 	background-color: black;
 	color: black;
 	font-family: cursive;
@@ -452,6 +452,11 @@ footer div{
 }
 footer a{
 	font-size: 80%;
+}
+.pj4{
+
+	width: 70%;
+	margin-left: 10%;
 }
 
 }

@@ -7,6 +7,9 @@ body{
 
 	font-family: 'Alfa Slab One', cursive;
 	color: grey;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
 }
 .icon { display: none; }
 
@@ -23,12 +26,27 @@ width:100%;
 	margin-left: 10%;
 	padding: 0%;
 }
+#jes{
+	width: 130%;
+	margin-left: 00%;
+	padding: 0%;
+	margin-top: 10%;
+}
+.fotoytexto{
+	display: flex;
+	margin-left: 10%;
+}
+
+
 .textofotoJes{
 	
 	background-color:black;
-	width:80%;
-	margin-bottom: 10%;
-	margin-right: 10%;	
+	width:50%;
+	margin-bottom: 1%;
+	margin-left: 20%;
+
+	
+
 
 }
 .textofotoWal{
@@ -40,16 +58,26 @@ width:100%;
 	padding: 0%;
 	
 }
-.pj4{
+.parrafoje{
+	margin-left: 5%;
+
+
+
+}
+.textoindex{
 	width: 100%;
+
+}
+.pj5{
+	width: 190%;
 	padding: 0%;
+	margin-top: 30%;
+	margin-left: -10%;
+	margin-right: 30%;
+	padding-right: 30%;
 }
 
-#jes{
-	width: 70%;
-	margin-left: 10%;
-	padding: 0%;
-}
+
 
 .textofoto{
 	
@@ -61,6 +89,7 @@ width:100%;
 	padding: 0%;
 	
 }
+
 
 
 
@@ -90,6 +119,7 @@ p a img{
 section.asd{
 	display: flex;
 	justify-content: center;
+	margin-top: 10%;
 
 
 }
@@ -212,7 +242,7 @@ div#espacio{
 p#main{
 
 	width: 95%;
-	margin-bottom: 10%;
+	margin-bottom: 0%;
 	margin-left: 0%;
 	margin-top: 5%;
 	font-size:150%;
@@ -228,9 +258,19 @@ p#main{
 }
 footer{
 	margin-top: 2%;
-	background-color: black;
+	background-color: #014421;
 	background-position: top;
 
+
+}
+
+footer a{
+		margin-left: 40%;
+
+}
+
+footer div{
+		margin-left: 40%;
 
 }
 
@@ -281,6 +321,7 @@ h2{
 	padding-left: 2%;
 	margin-top: 3%;
 	color: white;	
+	background-color: black;
 }
 
 
@@ -289,10 +330,11 @@ h2{
 
 
 footer.margen{
-	margin-left: 13%;
+	margin-left: 0%;
 	display: inline-block;
 	
 	font-size: 140%;
+	padding-left: 10%;
 }
 
 
@@ -307,9 +349,12 @@ footer.margen{
 
 }
 #footer{
-	margin-left: 35%;
-	padding-left: 1%;
-	padding-right: 2%;
+	margin-left: 0%;
+	padding-left: 0%;
+	padding-right: 0%;
+	width: 100%;
+	margin-right: 0%;
+	margin-bottom: 0%;
 }
 
 
@@ -333,131 +378,217 @@ footer.margen{
 .fondonegro{
 	background-color: black;
 }
+#conta{
+	margin-left: 40%;
+}
+.contacto{
 
+	display: flex;
+	margin-left: 25%;
+}
+div.fotohe{
+	margin-right: 5%;
+}
 .centrado{
 
 	margin-left: 35%;
 }
+footer a{
+		margin-left: 42%;
+	}
 
 @media screen and (max-width:
 480px) {
-nav ul { display: none; }
-.icon { float: right; display: block;  }
+	nav ul { display: none; }
+	.icon { float: right; display: block;  }
 
+	footer div{
+		margin-left: 33%;
+	}
+	footer a{
+		margin-left: 35%;
+	}
+	nav ul {
 
-nav ul {
+	display: none;
 
-display: none;
-
-}
-nav.responsive ul {
-display: block;
-
-}
-nav.responsive ul li {
-display: block;
-text-align: center;
-padding: 0.5rem;
-
-}
-nav.responsive ul li a {
-padding-right: 0;
-
-
-}
-
-
-.pj3{
-	width: 130%;
-	margin-left: 0%;
-	padding-left: 0%;
-}
-
-.margenheader{
-	margin-left: 0%;
-	margin-right: 0%;
-	padding-left: 0%;
-}
-
-.margen{
-	margin-left: 0%;
-	margin-right: 0%;
-	padding-left: 0%;
-}
-
-h1{
-	font-size: 170%;
-}
-
-h2{
-	font-size: 120%;
-}
-p#main{
-	font-size: 100%;
-}
-
-p.textofoto{
-	font-size: 100%;
-}
-section.asd{
+	}
+	nav.responsive ul {
 	display: block;
-}
-#footer{
-	margin-left: 25%;
-	margin-right: 0%;
-	padding-left: 0%;
 
-	display: inline-block;
+	}
+	nav.responsive ul li {
+	display: block;
+	text-align: center;
+	padding: 0.5rem;
+
+	}
+	nav.responsive ul li a {
+	padding-right: 0;
+
+
+	}
+
+
+	.pj3{
+		width: 100%;
+		margin-left: 0%;
+		padding-left: 0%;
+		margin-right: 0%;
+
+	}
 	
-	font-size: 140%;
-}
+	p#main{
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
 
-.margen2{
-	margin-left: 0%;
-	margin-right: 0%;
-	padding-left: 0%;
-}
 
-div.inline{
-	margin-left: 0%;
-	margin-right: 0%;
-	padding-left: 0%;
-}
-div.centrado{
-	margin-left: 0%;
-	margin-right: 0%;
-	padding-left: 0%;
-}
-div.caracteres{
-	margin-left: 0%;
-	margin-right: 0%;
-	padding-left: 0%;
-}
+	}
 
-.textofotoWal{
-	margin-left: 0%;
-	margin-right: 0%;
-	padding-left: 0%;
-	width: 100%;
-}
-.textofotoJes{
-	margin-left: 0%;
-	margin-right: 0%;
-	padding-left: 0%;
-	width: 100%;
+	.margenheader{
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+	}
 
-}
+	.margen{
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
 
-footer div{
-	font-size: 60%;
-}
-footer a{
-	font-size: 80%;
-}
-.pj4{
+	}
 
-	width: 70%;
-	margin-left: 10%;
-}
+
+	h1{
+		font-size: 170%;
+	}
+
+	h2{
+		font-size: 120%;
+	}
+	p#main{
+		font-size: 100%;
+	}
+
+	p.textofoto{
+		font-size: 100%;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	section.asd{
+		display: block;
+	}
+	#footer{
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+
+		display: inline-block;
+		
+		font-size: 140%;
+	}
+
+	.margen2{
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-left: 0%;
+		width: 90%;
+	}
+
+	div.inline{
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+
+	}
+	div.centrado{
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+	}
+	div.caracteres{
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+	}
+
+	.textofotoWal{
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+		width: 100%;
+	}
+	.textofotoJes{
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+		width: 100%;
+
+
+	}
+
+	footer div{
+		font-size: 60%;
+
+	}
+	footer a{
+		font-size: 80%;
+
+	}
+	.pj4{
+
+		width: 70%;
+		margin-left: 10%;
+	}
+	.contacto{
+
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+		
+	}
+	div.fotohe img{
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	img.example-image{
+		width: 100%;
+
+	}
+
+	h2{
+		font-size: 150%;
+	}
+	.fotoytexto{
+		display: inline-block;
+		margin-left: 0%;
+		margin-left: 3%;
+	}
+	img.pj5{
+		width: 100%;
+		margin-left: 35%;
+		margin-top: 0%;
+	}
+	#jes{
+		margin-left: 40%;
+	}
+	.foto{
+		width: 50%;
+		margin-left: 5%;
+		margin-left: 11%;
+
+	}
+	.textofotoJes{
+		margin-left: 0%;
+		width: 90%;
+		margin-right: 0%;
+	}
+	.parrafoje{
+		margin-right: 0%;
+	}
 
 }
